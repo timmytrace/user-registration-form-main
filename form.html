@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+ <html>  
+ <head>  
+  <title>Form in HTML</title>  
+</head>  
+ <body>  
+     <h2>Registration form</h2>  
+    <form>  
+     <fieldset>  
+        <legend>User personal information</legend>  
+        <form method="action">
+          <label for="username">Username:</label>
+          <input type="text" placeholder="Enter your username" id="username"/>
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="text" placeholder="dave@example.com" id="email"/>
+          <br><br>
+          <label for="password">Password:</label>
+          <input type="text" placeholder="Enter your Password" id="password"/>
+          <br><br>
+          <p>Select your country</p>
+          <select name="Select country">
+            <option value="All">All</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Nigeria">Nigeria</option>
+            </select>
+            <br><br>
+        <br><label>Enter your gender</label><br>  
+         <input type="radio" id="gender" name="gender" value="male"/>Male  <br/>  
+         <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+         <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+         <br><br> 
+         <p>Terms and Conditions</p>
+         <input type="checkbox" id="Terms and Conditions" value="options"/>I agree to the terms and conditions <br>
+         <input type="checkbox" id="Terms and Conditions" value="options"/>I do not agree to the terms and conditions <br>
+         <br><br>
+         <input type="submit" value="sign up">  
+     </fieldset>  
+  </form>  
+ </body>  
+</html>
